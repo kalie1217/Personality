@@ -1,0 +1,374 @@
+.main-container {
+    width: 660px;
+    height: 410px;
+    background-image: url(../images/personality/interactiveFrame.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #333;
+}
+
+.container-header {
+    width: 100%;
+    height: 40px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.container-header-left {
+    width: 390px;
+    float: left;
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.container-header-left > span:nth-child(1) {
+    font-size: 16px;
+    color: #fff;
+}
+
+.container-header-left > span:nth-child(2) {
+    font-size: 16px;
+    color: #fcfcc8;
+}
+
+.container-header-right {
+    width: 250px;
+    float: left;
+    padding-top: 12px;
+    padding-right: 10px;
+}
+
+.container-header-right {
+    font-size: 11px;
+    color: #ddd;
+    text-align: right;
+}
+
+.container-header-right > a:link,
+.container-header-right > a:active,
+.container-header-right > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.container-header-right > a:hover {
+    color: red;
+}
+
+.clearer {
+    clear: both;
+}
+
+.container-body {
+    width: 640px;
+    height: 350px;
+    background-image: url('../images/personality/background.jpg');
+    background-size: cover;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+}
+
+.content-img {
+    position: absolute;
+    border: 4px solid #dfb62a;
+    border-radius: 15px;
+    width: 205px;
+    height: 155px;
+    top: 95px;
+    left: 9px;
+}
+
+.content-text {
+    position: absolute;
+    width: 227px;
+    height: 128px;
+    background-image: url(../images/personality/narrative_box3.png);
+    top: 106px;
+    left: 228px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 14px;
+    padding-right: 49px;
+    font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.content-text-title {
+    font-weight: bold;
+}
+
+.item {
+   position: absolute;
+}
+
+/* item 1 start */
+.content-thumb-1 {
+    width: 76px;
+    height: 86px;
+    background-image: url(../images/personality/circle_01.png);
+    top: 22px;
+    left: 225px;
+    background-position: -36px 0;
+}
+.content-thumb-1 > .content-item-year {
+    top: -18px;
+    left: 22px;
+        font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.content-thumb-1 > .content-item-img {
+    top: 7px;
+    left: 7px;
+}
+/* item 1 end */
+
+/* item 2 start */
+.content-thumb-2 {
+    width: 111px;
+    height: 86px;
+    background-image: url('../images/personality/circle_02.png');
+    top: 22px;
+    left: 277px;
+}
+.content-thumb-2 > .content-item-year {
+    top: -18px;
+    left: 58px;
+           font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.content-thumb-2 > .content-item-img {
+    top: 7px;
+    left: 43px;
+}
+/* item 2 end */
+
+/* item 3 start */
+.content-thumb-3 {
+    width: 110px;
+    height: 86px;
+    background-image: url(../images/personality/circle_03.png);
+    top: 22px;
+    left: 365px;
+    background-position: -6px 0;
+}
+.content-thumb-3 > .content-item-year {
+    top: -18px;
+    left: 59px;
+        font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.content-thumb-3 > .content-item-img {
+    top: 7px;
+    left: 42px;
+}
+/* item 3 end */
+
+/* item 4 start */
+.content-thumb-4 {
+    width: 108px;
+    height: 77px;
+    background-image: url('../images/personality/circle_04.png');
+    top: 50px;
+    left: 452px;
+}
+.content-thumb-4 > .content-item-year {
+    top: -13px;
+    left: 90px;
+        font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.content-thumb-4 > .content-item-img {
+    top: 7px;
+    left: 39px;
+}
+/* item 4 end */
+
+/* item 5 start */
+.content-thumb-5 {
+    width: 99px;
+    height: 81px;
+    background-image: url(../images/personality/circle_05.png);
+    top: 132px;
+    left: 498px;
+}
+.content-thumb-5 > .content-item-year {
+    top: 70px;
+    left: 83px;
+        font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.content-thumb-5 > .content-item-img {
+    top: 11px;
+    left: 30px;
+}
+/* item 5 end */
+
+/* item 6 start */
+.content-thumb-6 {
+    width: 77px;
+    height: 108px;
+    background-image: url(../images/personality/circle_06.png);
+    top: 186px;
+    left: 490px;
+}
+.content-thumb-6 > .content-item-year {
+    top: 103px;
+    left: 58px;
+        font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.content-thumb-6 > .content-item-img {
+    top: 40px;
+    left: 8px;
+}
+/* item 6 end */
+
+/* item 7 start */
+.content-thumb-7 {
+    width: 77px;
+    height: 101px;
+    background-image: url(../images/personality/circle_07.png);
+    top: 227px;
+    left: 403px;
+}
+.content-thumb-7 > .content-item-year {
+    top: 102px;
+    left: 23px;
+        font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.content-thumb-7 > .content-item-img {
+    top: 32px;
+    left: 8px;
+}
+/* item 7 end */
+
+/* item 8 start */
+.content-thumb-8 {
+    width: 107px;
+    height: 87px;
+    background-image: url(../images/personality/circle_08.png);
+    top: 239px;
+    left: 319px;
+}
+.content-thumb-8 > .content-item-year {
+    top: 88px;
+    left: 18px;
+        font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.content-thumb-8 > .content-item-img {
+    top: 19px;
+    left: 7px;
+}
+/* item 8 end */
+
+/* item 9 start */
+.content-thumb-9 {
+    width: 111px;
+    height: 86px;
+    background-image: url(../images/personality/circle_09.png);
+    top: 241px;
+    left: 231px;
+}
+.content-thumb-9 > .content-item-year {
+    top: 88px;
+    left: 22px;
+        font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.content-thumb-9 > .content-item-img {
+    top: 18px;
+    left: 8px;
+}
+/* item 9 end */
+
+
+
+.content-item-year {
+    position: absolute;
+    color: #61615f;
+}
+
+.content-item-img {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.item.active > span {
+    color: #ddb72b;
+    font-weight: bold;
+}
+
+#personalityInstructions{
+    position:absolute;
+    margin:0px;
+    padding: 10px 10px 15px 13px;
+    width:300px;
+    top: 140px;
+    left: 170px;
+    background-color:rgba(255,255,255, 0.9);
+    /*opacity:.9;*/
+    -moz-box-shadow: 0px 3px 2px #444;
+    -webkit-box-shadow: 0px 3px 2px #444;
+    box-shadow: 0px 3px 2px #444;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    z-index:200;
+    display:none;
+    cursor: hand;
+    cursor: pointer;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#personalityInstrContent {
+    margin:0px;
+    padding:0px;
+    font-size:12px;
+    text-align:left;
+}
+
+
+#personalityInstrCloseX
+{
+    font-size:14px;
+    font-weight:bold;
+    position:absolute;
+    right:-12px;
+    top:-12px;
+    background: #ddd;
+    border-radius: 30px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    box-shadow: 0px 1px 1px #000;
+    padding:0px;
+    text-align: center;
+}
+
+#personalityInstrCloseX:hover, #personalityInstrCloseX:active{
+    color: #903;
+    background-color: #eee;
+}
+
+.personalityInstrTitle {
+    font-size:12px;
+    font-weight:bold;
+    text-align:left;
+    margin-bottom:10px;
+}

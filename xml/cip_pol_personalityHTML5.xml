@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data_xml title="Poland" subtitle="Lech Wałęsa" subtitleX="150" subtitleY="-3">
+	<backGroundImage imagePath="background.jpg"/>
+	<instructions title="Instructions">
+		<content>Select a button for detailed information on Lech Wałęsa’s life and his contributions to Poland. Scroll through the timeline by clicking the arrows.</content>
+	</instructions>
+
+	<timeline>
+		<event label="1943" date="1943" title="Birth" image="image_1943.png" thumb="live_button_01.png">Lech Wałęsa is born on 29 September 1943 in a clay hut in the village of Popowo, between Warsaw and Gdańsk.</event>
+			
+		<event label="1967" date="1967" title="Gdańsk" image="image_1967.png" thumb="live_button_02.png">Wałęsa moves to Gdańsk, where he works as an electrician at the massive Lenin Shipyard, the largest shipbuilding site in the Eastern bloc.</event>
+
+		
+		<event label="1970" date="1970" title="Riots" image="image_1970.png" thumb="live_button_03.png">Workers at the Lenin Shipyard stage a strike after food prices are raised dramatically. Wałęsa is one of the instigators of the protest.
+
+ 
+</event>
+		
+		<event label="1980" date="1980" title="Solidarity" image="image_1980.png" thumb="live_button_04.png">Food price hikes spur Polish labor unrest. In Gdańsk, Wałęsa leads a strike that eventually results in Poland’s first free trade union—Solidarność (Solidarity).
+</event>
+
+		<event label="1981" date="1981" title="Arrest" image="image_1981.png" thumb="live_button_05.png">As Solidarity’s membership increases, the Polish government succumbs to Soviet pressure and declares martial law. Wałęsa and other pro-democracy leaders are arrested.</event>
+
+		<event label="1983" date="1983" title="Nobel Prize" image="image_1983.png" thumb="live_button_06.png">Eleven months after being released from custody, Wałęsa is awarded the Nobel Peace Prize. Wałęsa’s wife Danuta travels to Oslo to accept the prize.</event>
+
+					
+			<event label="1989" date="1989" title="Elections" image="image_1989.png" thumb="live_button_07.png">After the Polish government agrees to semi-free elections, Solidarity candidates win virtually all freely contested legislative seats. Solidarity’s leader becomes prime minister. </event>
+
+		<event label="1990" date="1990" title="Presidency" image="image_1990.png" thumb="live_button_08.png">In the first direct elections for the Polish presidency, Wałęsa sweeps to victory. He becomes the Eastern bloc’s first noncommunist leader.</event>
+
+		<event label="1995" date="1995" title="Election Loss" image="image_1995.png" thumb="live_button_09.png">After narrowly losing his reelection bid, Wałęsa leaves politics to focus on promoting democracy and a strong civil society in Poland and throughout the world.</event>
+
+	</timeline>
+		
+
+</data_xml>
